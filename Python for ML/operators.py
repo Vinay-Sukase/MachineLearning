@@ -24,16 +24,16 @@ div = a / b
 print(div)
 
 # FLOOR DIVISION
-fdiv = a // b
-print(fdiv)
+flr_div = a // b
+print(flr_div)
 
 # MODULUS
 mod = a % b
 print(mod)
 
 # EXPONENTIAL
-pow = a ** b
-print(pow)
+expo = a ** b
+print(expo)
 
 # ------------------------------------------------------------------------------------------------- #
 
@@ -96,3 +96,30 @@ print(a >= b)
 
 # less than or equal to
 print(a <= b)
+
+# ------------------------------------------------------------------------------------------------- #
+# ASCII value order
+
+print(ord("A"))
+
+print(ord("B"))
+
+print("A" > "B")
+
+
+# ------------------------------------------------------------------------------------------------- #
+
+# Logical Operators :- are used to combine multiple conditions and return a Boolean result
+
+# and :- Return True if both conditions are True
+
+print((15 > 14) and (15 == (5*3)))  # Output : True and True = True
+print((10/5==2) and (20/5==5))      # Output : True and False = False
+
+# or :- Return True if at least one condition is True
+print((12!=12) or (23 == 45) or (10>5)) # Output : False or False or True = True
+
+# not :- Reverse the boolean value
+print(not 12 == 12)
+
+# ------------------------------------------------------------------------------------------------- #
