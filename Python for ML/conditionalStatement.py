@@ -1,7 +1,6 @@
 # Conditional Statement
 # Conditional Statements in Python allow decision-making by executing different blocks of code based on conditions
 
-
 print("Welcome to Python Pizza Deliveries!")
 
 size = input("What size of Pizza do you want? S,M or L: ")
